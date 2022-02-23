@@ -1,1 +1,96 @@
+img{
+    height: 27vw;
+    width:30vw;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw;
+    background-color: #0f1eac;
+    background-image: url(./images/resort.jpg);
+    height: 30vw;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
 
+.top p{
+    color: rgb(13, 3, 39);
+    font-size: 50px;
+    margin-left: -4vw;
+}
+.top button{
+    padding: 1vw;
+    width: 10vw;
+    height: 4vw;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.activities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4vw;
+    padding: 3vw;
+    background-color: #f0f0f0;
+    margin-top: 0;
+
+}
+.activities img{
+    float: right;
+    margin-right: 1vw;
+}
+.activities p{
+line-height: 50px;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: grey;
+}
+.activities div{
+    border: 1px solid blue;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.activities h4{
+    margin-bottom: 3vw;
+    clear: both;
+}
+
+
+@media screen and (max-width: 1280px){
+
+    .activities{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    img{
+        height:100vw;
+        width: 100%;
+    }
+    .top p{
+        font-size: 4vw;
+    }
+    .top button{
+        font-size: 1.5vw;
+        background-color: orangered;
+    }
+    .activities p{
+        font-size: 20px;
+        clear: both;
+    }
+    .activities h4{
+        text-align: center;
+        color: purple;
+    }
+    .activities div{
+        border: none;
+    }
+}
