@@ -14,10 +14,44 @@
     display: flex;
 }
 
-.other-content {
-    
+.left-content-header {
+    color: darkolivegreen;
+    text-align: center;
 }
 
-.other-content li {
+.left-content-header button {
+    color: darkseagreen;
+    border: 1.6px solid darkturquoise;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+.left-content-img {
+    text-align: center;
+}
+
+.right-content-header {
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.right-content-header button {
+    color: darkseagreen;
+    border: 1.6px solid darkturquoise; 
+    width: 70px;
+    height: 50px; 
+    cursor: pointer;   
+}
+.right-content-img {
+    text-align: center;
+}
+
+.other-content-header {
+    color: darkslategray;
+    text-align: center;
+}
+
+.other-content-list li {
     list-style: none;
+    text-align: center;
 }
