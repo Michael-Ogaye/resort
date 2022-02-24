@@ -12,11 +12,20 @@
 
 .main-content {
     display: flex;
+    /* background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center; */
 }
 
 .left-content-header {
+    display: flex;
     color: darkolivegreen;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content-header h1 {
+    margin-right: 10px;
 }
 
 .left-content-header button {
@@ -26,13 +35,20 @@
     height: 50px;
     cursor: pointer;
 }
+
 .left-content-img {
     text-align: center;
 }
 
 .right-content-header {
+    display: flex;
     color: darkolivegreen;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-content-header h1 {
+    margin-right: 10px;
 }
 
 .right-content-header button {
