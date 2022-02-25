@@ -1,10 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin sans" sans-serif;
+    outline: none;
+}
+
+.body {
+    background-color: beige;
+} 
+
 .accommodation {
-    background-color:beige;
-    font-family: sans-serif;
     font-size: 18px;
 }
 
 .page-header {
+    margin: 40px;
     text-align: center;
     color: cadetblue;
     font-size: 20px;
@@ -22,6 +32,7 @@
     color: darkolivegreen;
     align-items: center;
     justify-content: center;
+    margin: 15px;
 }
 
 .left-content-header h1 {
@@ -29,11 +40,20 @@
 }
 
 .left-content-header button {
-    color: darkseagreen;
-    border: 1.6px solid darkturquoise;
+    color: darkblue;
+    border: 1.6px solid darkslateblue;
     width: 70px;
     height: 50px;
+    font-size: 20px;
     cursor: pointer;
+}
+
+.left-content-desc {
+    margin: 15px;
+}
+
+.left-content-desc p {
+    line-height: 150%;
 }
 
 .left-content-img {
@@ -45,6 +65,7 @@
     color: darkolivegreen;
     align-items: center;
     justify-content: center;
+    margin: 15px; 
 }
 
 .right-content-header h1 {
@@ -52,12 +73,22 @@
 }
 
 .right-content-header button {
-    color: darkseagreen;
-    border: 1.6px solid darkturquoise; 
+    color: darkblue;
+    border: 1.6px solid darkslateblue; 
     width: 70px;
     height: 50px; 
-    cursor: pointer;   
+    font-size: 20px; 
+    cursor: pointer; 
 }
+
+.right-content-desc {
+    margin: 15px;
+}
+
+.right-content-desc p {
+    line-height: 150%;
+}
+
 .right-content-img {
     text-align: center;
 }
